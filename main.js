@@ -13,6 +13,8 @@ const loginSubmitBtn = document.getElementById('login-submit-btn');
 const regSubmitBtn = document.getElementById('reg-submit-btn');
 const userIcon = document.getElementById('user-icon');
 const loginIcon = document.getElementById('login-icon');
+const userIconDesktop = document.getElementById('user-icon-desktop');
+const loginIconDesktop = document.getElementById('login-icon-desktop');
 
 
 goRegister.addEventListener("click", function(e){
@@ -57,6 +59,11 @@ loginSubmitBtn.addEventListener("click", function(e){
     loginIcon.classList.add('d-none')
     loginIcon.classList.remove('d-block')
 
+    userIconDesktop.classList.remove('d-none')
+    userIconDesktop.classList.add('d-block')
+    loginIconDesktop.classList.add('d-none')
+    loginIconDesktop.classList.remove('d-block')
+
     // localStorage.setItem("loggedIn", "true");
 });
 
@@ -72,6 +79,12 @@ regSubmitBtn.addEventListener("click", function(e){
     userIcon.classList.add('d-block')
     loginIcon.classList.add('d-none')
     loginIcon.classList.remove('d-block')
+
+    userIconDesktop.classList.remove('d-none')
+    userIconDesktop.classList.add('d-block')
+    loginIconDesktop.classList.add('d-none')
+    loginIconDesktop.classList.remove('d-block')
+
 
     // localStorage.setItem("loggedIn", "true");
 });
