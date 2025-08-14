@@ -1,0 +1,136 @@
+
+@include size-lg{
+    .service-banner{
+        background-image: url(/assets/images/banner-bg-pc.png);
+        height: 320px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .w-800px{
+        width: 800px;
+    }
+    .pb-lg-360{
+        padding-bottom: 360px !important;
+    }  
+    .w-lg-856px{
+        width: 856px;
+    }
+    .w-lg-416px{
+        max-width: 416px;
+    }
+    .pt-lg-300px{
+    padding-top: 300px;
+}
+    
+}
+
+@include size-sm{
+    .service-banner{
+        background-image: url(/assets/images/banner-bg.png);
+        height: 254px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pb-350{
+        padding-bottom: 350px !important;
+    } 
+    .img-scale-sm-3{
+        transform: scale(2.8);
+        transform-origin: center;
+    }
+    .h-sm-200px{
+        height: 200px;
+    }
+
+}
+
+.border-bottom-dashed{
+    border-bottom: 1px dashed $white;
+}
+
+
+
+.banner-person-img{
+    position: absolute;
+    bottom: -10px;
+    right: 140px;
+}
+
+
+
+.card-label {
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked {
+    + .card-label {
+    border: 2px solid #36c99f;
+        &:before {
+            content: "HOT";
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #36c99f;
+            border-bottom-right-radius: 12px;
+            padding: 8px 16px;
+        }   
+    }
+}
+
+
+.w-120px{
+    width: 120px;
+}
+
+.h-979px{
+    height: 979px;
+}
+
+
+
+.w303px{
+    width: 303px;
+}
+
+
+
+
+
+
+
+
+
+.subscribe{
+    background-image: url(/assets/images/subscribe-3.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+
+}
+
+.mt-minus-300{
+margin-top: -300px;
+}
+
+
+.subscribe-img1{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.subscribe-img2{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+

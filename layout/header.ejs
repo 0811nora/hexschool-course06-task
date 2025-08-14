@@ -1,0 +1,174 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <div class="container">
+        <a class="navbar-brand order-0" href="index.html">
+            <img src="/assets/images/logo.svg" alt="logo" class="logo-img">
+        </a>
+        
+        <div class="ms-auto d-lg-none">
+            <div class="d-none" id="user-icon">
+                <a href="user.html">
+                    <img src="/assets/images/avatar.png" alt="個人頭像圖" class="user-img rounded-circle border me-2">
+                    Mokumaru
+                </a>
+            </div>
+            <div id="login-icon">
+                <button type="button" class="btn btn-outline-natural-85 rounded-1 text-black px-6 py-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    登入 / 註冊
+                </button>
+            </div>
+        </div>
+
+        <button class="navbar-toggler  d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item me-3">
+                    <a class="nav-link py-2 px-6" href="services.html">服務方案</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link py-2 px-6" href="about.html">關於職旅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-2 px-6" href="contact-us.html">聯絡我們</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="ms-auto  d-none d-lg-block">
+            <div class="d-none" id="user-icon-desktop">
+                <a href="user.html">
+                    <img src="/assets/images/avatar.png" alt="個人頭像圖" class="user-img rounded-circle border me-2">
+                    Mokumaru
+                </a>
+            </div>
+            <div id="login-icon-desktop">
+                <button type="button" class="btn btn-outline-natural-85 rounded-1 text-black px-6 py-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    登入 / 註冊
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+    <!-- Modal -->
+
+
+    <div class="modal fade " id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered w-1200px">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="d-flex " id="login-area">
+                        <div class="w-60 d-none d-lg-block"> 
+                            <img src="/assets/images/login.png" class="radius-top-left " alt="">
+                        </div>
+                        <div class="w-100 w-lg-40 p-lg-9  p-6 position-relative">
+                            <h2 class="text-center fs-lg-2 fw-bold mb-lg-9 mb-6">登入</h2>
+                            <div class="border-bottom pb-6 mb-6 ">
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 mb-4" ><img src="/assets/images/google.svg" alt="" class="me-1" >Google</a>
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 " ><img src="/assets/images/discord.svg" alt="" class="me-1" >Discord</a>
+                            </div>
+                            <div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput " class="text-black">帳號</label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+
+                                <div class="text-end mb-4">
+                                    <a href="#" class="text-natural-50 fs-lg-6 fs-7">忘記密碼</a>
+                                </div>
+
+                                <div class="mb-9">
+                                    <button type="submit" class="w-100 btn btn-dark mb-4 py-3" id="login-submit-btn">送出<span class="material-symbols-outlined align-bottom fs-6 fs-lg-4">chevron_right</span></button>
+                                </div>
+
+                                <div class="text-center fs-lg-6 fs-7">
+                                    <p class="text-natural-50 fw-medium">不是會員?<a href="#" class="ms-1 text-primary-60 text-decoration-underline" id="go-register">快速註冊</a></p>
+                                </div>
+                            </div>
+                            <div class="login-close">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex  d-none" id="register-area">
+                        <div class="w-lg-40 w-100  p-lg-9  p-6 position-relative">
+                            <h2 class="text-center fs-lg-2 fw-bold mb-lg-9 mb-6">註冊</h2>
+                            <div class="border-bottom pb-6 mb-6">
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 mb-4" ><img src="/assets/images/google.svg" alt="" class="me-1" >Google</a>
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3" ><img src="/assets/images/discord.svg" alt="" class="me-1" >Discord</a>
+                            </div>
+                            <div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput " class="text-black">帳號</label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">確認密碼 </label>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label fs-lg-6 fs-7" for="flexCheckDefault">
+                                        <p>我同意 <a class="mx-1 text-primary-60 text-decoration-underline" href="services.html" >服務條款</a>和 <a class="mx-1 text-primary-60 text-decoration-underline" href="terms.html">隱私政策</a></p>
+                                    </label>
+                                </div>
+
+                                <div class="mb-9">
+                                    <button type="submit" class="w-100 btn btn-dark mb-4 py-3" id="reg-submit-btn">送出<span class="material-symbols-outlined align-bottom fs-6 fs-lg-4">chevron_right</span></button>
+                                </div>
+
+                                <div class="text-center">
+                                    <p class="text-natural-50 fw-medium">已是會員?<a href="#" class="ms-1 text-primary-60 text-decoration-underline" id="go-login">直接登入</a></p>
+                                </div>
+                            </div>
+                            <div class="login-close">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+
+                        <div class="w-60 d-none d-lg-block"> 
+                            <img  src="/assets/images/register.png" class="radius-right-bottom register-img " alt="註冊圖片">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+

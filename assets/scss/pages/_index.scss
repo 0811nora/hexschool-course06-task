@@ -1,0 +1,143 @@
+
+.bgGradient{
+  background-image: url(/assets/images/gradient-ball.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.bgGradient-right{
+  background-image: url(/assets/images/gradient-ball.png);
+  background-size: 50%;
+  background-position: right -100px bottom -300px;
+  background-repeat: no-repeat;
+}
+
+.bgqa{
+  background-image: url(/assets/images/bg-grid.png);
+}
+
+
+
+
+
+.mw-400px{
+  max-width: 400px;
+}
+
+.w306px{
+  width: 306px;
+}
+
+.story-tag{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.serve-tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mentor-slider{
+    margin-right: calc((100vw - 100%) / -2);
+    overflow: visible;
+}
+
+
+
+@include size-lg{
+  .w-lg-815px{
+    width: 815px;
+  }
+  .h-lg-690px{
+    height: 690px;
+  }
+  .w-lg-416px{
+    width: 416px;
+  }
+  .w-lg-746px{
+    width: 746px;
+  }
+}
+
+@include size-sm{
+  .w-sm-48px{
+    width: 48px;
+  }
+  .fs-2{
+    font-size: 32px !important;
+  }
+  .mw-sm-320px{
+    max-width: 320px;
+  }
+  .h-sm-568px{
+    height: 800px;
+  }
+  .bgGradient-right{
+    background-size: 100%;
+    background-position: right -150px bottom -120px;
+    background-repeat: no-repeat;
+  }
+  .w306px{
+    width: 306px;
+  }
+
+}
+
+.overflowX-hidden{
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.target-tag{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.border-radius-topRight{
+  border-radius: 0 12px 0 0;
+}
+
+.border-radius-bottomRight{
+  border-radius: 14px 0 12px 0;
+}
+
+
+
+.overflow-x-auto{
+  overflow-x: auto
+}
+
+
+.accordion-button:focus {
+  box-shadow: none; 
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent; 
+}
+
+.accordion-button {
+  background-color: transparent; 
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(0deg);
+}
+
+.accordion-botder-t{
+  border-top: 1px dashed $natural-85;
+}
+
+
+

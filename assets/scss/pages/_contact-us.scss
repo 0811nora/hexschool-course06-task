@@ -1,0 +1,28 @@
+@include size-lg{
+    .w-lg-300px{
+        width: 300px;
+    }
+    .w-lg-656px{
+        width: 656px;  
+    }
+}
+
+
+.date-icon{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 0;
+    top: 50%;
+}
+
+.img-form{
+    top: -135px;
+    right: 40px;
+    z-index: 1;
+}
+
+
+
+
+
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <title>職旅 Workway</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="">
+
+
+      <!-- 服務方案頁-廣告圖 -->
+      <div class="service-banner">
+        <div class="container py-9 py-lg-12 position-relative ">
+            <div class="text-center w-800px mx-auto ">
+              <h1 class="fs-2 fs-lg-xxl fw-bold mb-6 mb-lg-9">服務方案</h1>
+              <p class="text-natural-50 fs-6 fs-lg-9">我們最全面的服務方案，為您提供從評估、規劃到實踐的完整支持。不再擔心轉型過程中的各種挑戰，我們的專家團隊將全程陪伴，確保您順利實現職業自由。</p>
+          </div>
+          <img class="banner-person-img d-none d-lg-block" src="/assets/images/banner-person.svg" alt="">
+        </div>
+      </div>
+
+      <!-- 主要內容 1 -->
+      <section class="bg-white">  
+        <div class="container py-9 py-lg-12">
+
+          <!-- 職涯轉型全程計畫 -->
+          <div class="text-center mb-6 mb-lg-9">
+            <img class="mb-1" src="/assets/images/mountain-icon.svg" alt="">
+            <h2 class="mb-4 fs-3 fs-lg-2 fw-medium">職涯轉型全程計畫</h2>
+            <p class="text-natural-50 fs-6 fs-lg-9">從企業到自由，無縫轉型之旅</p>
+          </div>
+
+            <!-- 第一格 -->
+          <input type="radio" id="cardOption1" name="cardSelect" value="card1" checked>
+          <label for="cardOption1" class="card-label d-flex align-items-start shadow rounded-5 mb-4">
+            <div class=" d-flex justify-content-between gap-lg-6 p-5 pt-9 p-lg-9">
+              <div class="card-body p-0">
+                <p class="text-primary mb-2">全面方案</p>
+                <h5 class="card-title mb-2 fs-5 fs-lg-4 fw-medium">職涯轉型全程計畫</h5>
+                <p class="card-text mb-2">針對希望完全改變職業領域的資深專業人士。我們的專家團隊將協助您將過往經驗轉化為新領域的競爭優勢。</p>
+                <ul class="mb-4 list-style-none ps-0">
+                  <li ><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">深度職能轉換評估與規劃</li>
+                  <li ><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">跨領域技能遷移策略</li>
+                  <li ><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">新領域人脈建立指導</li>
+                  <li ><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">長期職涯發展藍圖</li>
+                </ul>
+                <div class="bg-natural-95 rounded-1 p-4 mb-4 mb-lg-6 p-lg-6">
+                  <div class="d-flex fs-7 fs-lg-6">
+                    <p class="text-nowrap">適合對象：</p>
+                    <span class="fw-bold d-inline-block">從企業職場轉型為自由工作者 / 數位遊牧者的專業人士</span>
+                  </div>
+                  <p class="fs-7 fs-lg-6">優惠價格：<span class="text-primary fs-4 fw-bold fs-5 fs-lg-4 ">NT$ 120,000</span></p>
+                </div>
+                <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5 " href="#">我有興趣
+                  <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span></a>
+              </div>
+              <div class="w-300px d-none d-lg-block">
+                <img  src="/assets/images/plan-1.svg" alt="卡通示意圖">
+              </div>
+            </div>
+          </label>
+
+          <!-- 第二格 -->
+          <input type="radio" id="cardOption2" name="cardSelect" value="card2">
+          <label for="cardOption2" class="card-label d-flex align-items-start shadow rounded-5 mb-4">
+            <div class=" d-flex justify-content-between gap-lg-6 p-5 pt-9 p-lg-9">
+              <div class="card-body p-0">
+                <p class="text-primary mb-2">加速方案</p>
+                <h5 class="card-title mb-2 fs-5 fs-lg-4 fw-medium">自由工作加速計畫</h5>
+                <p class="card-text mb-2">為已確定要轉型但需要全面規劃的專業人士設計。六次深度諮詢，從心態調整到實際操作，全方位為您的轉型做好準備。</p>
+                <ul class="mb-4 mb-lg-6 list-style-none ps-0">
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">詳細的市場機會分析</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">個人優勢定位與差異化策略</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">完整的轉型時間表與里程碑</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">轉型期間的心理健康維護策略</li>
+                </ul>
+                <div class="bg-natural-95 rounded-1 p-4 p-lg-6 mb-4  mb-lg-6">
+                  <div class="d-flex fs-7 fs-lg-6">
+                    <p class="text-nowrap">適合對象：</p>
+                    <span class="fw-bold d-inline-block">從已經開始自由工作但想提升效能和收入的專業人士</span>
+                  </div>
+                  <p class="fs-7 fs-lg-6">優惠價格：<span class="text-primary fs-4 fw-bold fs-5 fs-lg-4 ">NT$ 80,000</span></p>
+                </div>
+                <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5" href="#">我有興趣
+                  <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span></a>
+              </div>
+              <div class="w-300px d-none d-lg-block">
+                <img  src="/assets/images/plan-2.svg" alt="卡通示意圖">
+              </div> 
+            </div>
+          </label>
+
+
+          <!-- 第三格 -->
+          <input type="radio" id="cardOption3" name="cardSelect" value="card3">
+          <label for="cardOption3" class="card-label d-flex align-items-start shadow rounded-5 mb-4">
+            <div class=" d-flex justify-content-between gap-lg-6 p-5 pt-9 p-lg-9">
+              <div class="card-body p-0">
+                <p class="text-primary mb-2">遊牧方案</p>
+                <h5 class="card-title mb-2 fs-5 fs-lg-4 fw-medium">數位遊牧生活計畫</h5>
+                <p class="card-text mb-2">針對希望完全改變職業領域的資深專業人士。我們的專家團隊將協助您將過往經驗轉化為新領域的競爭優勢。</p>
+                <ul class="mb-4  list-style-none ps-0">
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">深度職能轉換評估與規劃</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">新領域人脈建立指導</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">跨領域技能遷移策略</li>
+                  <li><img src="/assets/images/li-icon.svg" alt="list-icon" class="me-2">長期職涯發展藍圖</li>
+                </ul>
+                <div class="bg-natural-95 rounded-1 p-4 p-lg-6 mb-4  mb-lg-6">
+                  <div class="d-flex fs-7 fs-lg-6">
+                    <p class="text-nowrap">適合對象：</p>
+                    <span class="fw-bold d-inline-block">希望同時擁有工作自由和地域自由的專業人士</span>
+                  </div>
+                  <p class="fs-7 fs-lg-6">優惠價格：<span class="text-primary fs-5 fs-lg-4 fw-bold">NT$ 60,000</span></p>
+                </div>
+                <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5" href="#">我有興趣
+                  <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span>
+                </a>
+              </div>
+              <div class="w-300px d-none d-lg-block">
+                <img  src="/assets/images/plan-3.svg" alt="卡通示意圖">
+              </div> 
+            </div>
+          </label>
+        </div>
+      </section>
+
+
+      <!-- 主要內容 2 -->
+      <section class="bg-natural-95">
+        
+        <div class="container  py-9  pb-350 pb-lg-360 py-lg-12">
+          <div class="text-center mb-6 mb-lg-9">
+            <img class="mb-1" src="/assets/images/chat.svg" alt="">
+            <h2 class="mb-4 fs-3 fs-lg-2 fw-medium">基礎諮詢服務</h2>
+            <p class="text-natural-50 fs-6 fs-lg-9">我們提供第一次免費諮詢，一起建立信任的橋樑</p>
+          </div>
+
+          <div class="d-flex flex-column flex-lg-row gap-lg-6 gap-4">
+            <input type="radio" id="cardbese1" name="cardBase" value="base1" checked>
+            <label for="cardbese1" class="card-label d-flex  shadow rounded-5 mb-4 w-100 w-lg-416px">
+              <div class=" w-100 p-5  p-lg-9 bg-white">
+                <div class="card-body p-0 text-center">
+                  <img src="/assets/images/server-1.svg" alt="一般圖示" class="mb-4">
+                  <h5 class="fs-5 fw-bold mb-2">職涯探索評估</h5>
+                  <p class="fs-7 text-natural-50 mb-2">3 次一對一諮詢，了解可能性和適配性</p>
+                  <p class="text-primary-60 fs-5 fw-bold mb-4">NT$ 3,800</p>
+                  <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5" href="#">我有興趣
+                    <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span>
+                  </a>
+                </div>
+              </div>
+            </label>
+
+            <input type="radio" id="cardbese2" name="cardBase" value="base2">
+            <label for="cardbese2" class="card-label d-flex shadow rounded-5 mb-4 w-100 w-lg-416px">
+              <div class="w-100  p-5  p-lg-9 bg-white">
+                <div class="card-body p-0 text-center">
+                  <img src="/assets/images/server-2.svg" alt="一般圖示" class="mb-4">
+                  <h5 class="fs-5 fw-bold mb-2">職涯轉型規劃</h5>
+                  <p class="fs-7 text-natural-50 mb-2">6 次深度諮詢，建立完整轉型藍圖</p>
+                  <p class="text-primary-60 fs-5 fw-bold mb-4">NT$ 12,000</p>
+                  <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5" href="#">我有興趣
+                    <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span>
+                  </a>
+                </div>
+              </div>
+            </label>
+
+            <input type="radio" id="cardbese3" name="cardBase" value="base3">
+            <label for="cardbese3" class="card-label d-flex  shadow rounded-5 mb-4 w-100 w-lg-416px">
+              <div class="w-100 p-5  p-lg-9 bg-white">
+                <div class="card-body p-0 text-center">
+                  <img src="/assets/images/server-3.svg" alt="一般圖示" class="mb-4">
+                  <h5 class="fs-5 fw-bold mb-2">專業定位與品牌建立</h5>
+                  <p class="fs-7 text-natural-50 mb-2">4 次專業諮詢，確立市場定位與差異化策略</p>
+                  <p class="text-primary-60 fs-5 fw-bold mb-4">NT$ 8,800</p>
+                  <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5" href="#">我有興趣
+                    <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span>
+                  </a>
+                </div>
+              </div>
+            </label>
+
+          </div>
+          
+
+
+        </div>
+
+      </section>
+
+
+      <!-- 主要內容 3 -->
+      <section class="bg-white">
+    
+        <div class="container  py-9 py-lg-12">
+
+          <div class="text-center mb-6 mb-lg-9  mt-minus-300">
+            <img class="mb-1" src="/assets/images/heart.svg" alt="">
+            <h2 class="mb-4 fs-3 fs-lg-2 fw-medium">持續支持方案</h2>
+          </div>
+
+          <div class=" w-lg-856px mx-auto bg-secondary-90 border border-3 border-secondary-50 rounded-3 subscribe position-relative mb-12">
+            <div class=" p-6 text-center ">
+              <h5 class="fs-5 fs-lg-4 fw-bold mb-2">職旅會員計畫</h5>
+              <p class="fs-7 fs-lg-6 mb-9">享有長期社群支持與資源服務</p>
+              <p class="text-primary-60 fs-5 fs-lg-4 fw-bold pb-9">NT$ 9,800 <span class="text-black fw-normal fs-7 fs-lg-6">/ 年( NT$1,200 /月)</span></p>
+              <a class="btn btn-dark rounded-1 p-3 fs-7 fs-lg-6 px-lg-5 mb-lg-9" href="#">我有興趣
+                <span class="material-symbols-outlined align-bottom fs-5 fs-lg-4">chevron_right</span>
+              </a>
+            </div>
+            <img src="/assets/images/subscribe-1.svg" class="subscribe-img1 d-none d-lg-block" alt="">
+            <img src="/assets/images/subscribe-2.svg" class="subscribe-img2 d-none d-lg-block"  alt="">
+          </div>
+
+
+
+          <%- include('./layout/free-booking.ejs'); -%> 
+
+        </div>
+      </section>
+
+
+
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

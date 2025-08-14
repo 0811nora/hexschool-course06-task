@@ -1,0 +1,78 @@
+
+@include size-lg{
+    .about-banner{
+        background-image: url(/assets/images/banner-bg-pc.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .w-800px{
+        width: 800px;
+    }
+    
+}
+
+@include size-sm{
+    .about-banner{
+        background-image: url(/assets/images/banner-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+}
+
+.w-320px{
+    width: 320px;
+}
+
+.w-120px{
+    width: 120px;
+}
+
+
+.mentor-slider{
+    margin-right: calc((100vw - 100%) / -2);
+    overflow: visible;
+}
+
+.shape-ab{
+    position: absolute;
+    bottom: -12px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.shape-ex7{
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: relative;
+
+}
+.shape-ex7::before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 14px solid transparent;
+    border-top: 14px solid $white;
+    border-right: 14px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.shape-ex7::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 14px solid transparent;
+    border-bottom: 14px solid $white;
+    border-right: 14px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

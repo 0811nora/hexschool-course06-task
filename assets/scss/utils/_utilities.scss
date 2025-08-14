@@ -1,0 +1,34 @@
+$utilities: map-merge(
+    $utilities,
+    (
+        "font-size": map-merge(
+        map-get($utilities, "font-size"),
+        ( responsive: true ),
+        ),
+    )
+);
+
+
+.black-form-floating > label {
+    color: $black;
+    font-weight: 400;
+}
+
+
+.gray-form-floating > label {
+    color: $natural-50;
+    font-weight: 400;
+}
+
+
+.list-style-none{
+    list-style: none;
+}
+
+
+
+.img-scale-2{
+    transform: scale(2);
+    transform-origin: center;
+}
+
