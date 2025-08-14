@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <title>職旅 Workway</title>
+    <script type="module" crossorigin src="/hexschool-course06-task/assets/main-DSor8GER.js"></script>
+    <link rel="stylesheet" crossorigin href="/hexschool-course06-task/assets/main-BV0ZUETO.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <div class="container">
+        <a class="navbar-brand order-0" href="index.html">
+            <img src="/hexschool-course06-task/assets/logo-CRTeTChE.svg" alt="logo" class="logo-img">
+        </a>
+        
+        <div class="ms-auto d-lg-none">
+            <div class="d-none" id="user-icon">
+                <a href="user.html">
+                    <img src="/hexschool-course06-task/assets/avatar-QGHQ479s.png" alt="個人頭像圖" class="user-img rounded-circle border me-2">
+                    Mokumaru
+                </a>
+            </div>
+            <div id="login-icon">
+                <button type="button" class="btn btn-outline-natural-85 rounded-1 text-black px-6 py-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    登入 / 註冊
+                </button>
+            </div>
+        </div>
+
+        <button class="navbar-toggler  d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item me-3">
+                    <a class="nav-link py-2 px-6" href="services.html">服務方案</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link py-2 px-6" href="about.html">關於職旅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-2 px-6" href="contact-us.html">聯絡我們</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="ms-auto  d-none d-lg-block">
+            <div class="d-none" id="user-icon-desktop">
+                <a href="user.html">
+                    <img src="/hexschool-course06-task/assets/avatar-QGHQ479s.png" alt="個人頭像圖" class="user-img rounded-circle border me-2">
+                    Mokumaru
+                </a>
+            </div>
+            <div id="login-icon-desktop">
+                <button type="button" class="btn btn-outline-natural-85 rounded-1 text-black px-6 py-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    登入 / 註冊
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+    <!-- Modal -->
+
+
+    <div class="modal fade " id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered w-1200px">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="d-flex " id="login-area">
+                        <div class="w-60 d-none d-lg-block"> 
+                            <img src="/hexschool-course06-task/assets/login-DRI71ClI.png" class="radius-top-left " alt="">
+                        </div>
+                        <div class="w-100 w-lg-40 p-lg-9  p-6 position-relative">
+                            <h2 class="text-center fs-lg-2 fw-bold mb-lg-9 mb-6">登入</h2>
+                            <div class="border-bottom pb-6 mb-6 ">
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 mb-4" ><img src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.3%2010.2083C19.3%209.55825%2019.2417%208.93325%2019.1333%208.33325H10.5V11.8833H15.4333C15.2167%2013.0249%2014.5667%2013.9916%2013.5917%2014.6416V16.9499H16.5667C18.3%2015.3499%2019.3%2012.9999%2019.3%2010.2083Z'%20fill='%234285F4'/%3e%3cpath%20d='M10.5%2019.1667C12.975%2019.1667%2015.05%2018.35%2016.5667%2016.95L13.5917%2014.6417C12.775%2015.1917%2011.7333%2015.525%2010.5%2015.525C8.11665%2015.525%206.09165%2013.9167%205.36665%2011.75H2.31665V14.1167C3.82498%2017.1083%206.91665%2019.1667%2010.5%2019.1667Z'%20fill='%2334A853'/%3e%3cpath%20d='M5.36665%2011.7416C5.18331%2011.1916%205.07498%2010.6083%205.07498%209.99993C5.07498%209.3916%205.18331%208.80827%205.36665%208.25827V5.8916H2.31665C1.69165%207.12493%201.33331%208.5166%201.33331%209.99993C1.33331%2011.4833%201.69165%2012.8749%202.31665%2014.1083L4.69165%2012.2583L5.36665%2011.7416Z'%20fill='%23FBBC05'/%3e%3cpath%20d='M10.5%204.48325C11.85%204.48325%2013.05%204.94992%2014.0083%205.84992L16.6333%203.22492C15.0417%201.74159%2012.975%200.833252%2010.5%200.833252C6.91665%200.833252%203.82498%202.89159%202.31665%205.89159L5.36665%208.25825C6.09165%206.09159%208.11665%204.48325%2010.5%204.48325Z'%20fill='%23EA4335'/%3e%3c/svg%3e" alt="" class="me-1" >Google</a>
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 " ><img src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13.0025%203.33325C13.6225%203.33325%2014.2775%203.54992%2014.8775%203.78909L15.3166%203.96909C16.3666%204.40909%2016.9566%205.33242%2017.4141%206.34659C18.1566%207.99242%2018.6725%2010.1866%2018.8508%2011.8549C18.9358%2012.6466%2018.9566%2013.4433%2018.8041%2013.9791C18.64%2014.5516%2018.0816%2014.9566%2017.5391%2015.2749L17.2708%2015.4274L16.9925%2015.5824C16.8491%2015.6624%2016.7016%2015.7416%2016.555%2015.8191L16.12%2016.0441L15.5225%2016.3416L15.0416%2016.5783C14.9434%2016.6312%2014.8355%2016.6639%2014.7244%2016.6744C14.6133%2016.6849%2014.5012%2016.673%2014.3948%2016.6393C14.2884%2016.6057%2014.1899%2016.551%2014.105%2016.4785C14.0201%2016.406%2013.9507%2016.3173%2013.9007%2016.2174C13.8508%2016.1176%2013.8215%2016.0088%2013.8144%2015.8974C13.8074%2015.786%2013.8228%2015.6744%2013.8597%2015.5691C13.8966%2015.4637%2013.9543%2015.3669%2014.0294%2015.2843C14.1044%2015.2017%2014.1953%2015.1351%2014.2966%2015.0883L14.955%2014.7633L14.4716%2014.2558C13.3133%2014.7308%2011.9491%2014.9999%2010.5%2014.9999C9.0508%2014.9999%207.68664%2014.7316%206.5283%2014.2558L6.04497%2014.7624L6.7058%2015.0874C6.80375%2015.1363%206.8911%2015.2041%206.96287%2015.2867C7.03464%2015.3694%207.08942%2015.4654%207.12409%2015.5693C7.15875%2015.6731%207.17263%2015.7828%207.16491%2015.892C7.1572%2016.0012%207.12806%2016.1078%207.07914%2016.2058C7.03022%2016.3037%206.96249%2016.391%206.87982%2016.4628C6.79714%2016.5346%206.70114%2016.5894%206.59729%2016.624C6.38756%2016.694%206.15861%2016.6779%205.9608%2016.5791L5.50747%2016.3541C5.17247%2016.1874%204.83664%2016.0224%204.50497%2015.8483L3.73164%2015.4274L3.46414%2015.2749C2.92164%2014.9566%202.36247%2014.5516%202.19914%2013.9791C2.0458%2013.4433%202.06747%2012.6474%202.15164%2011.8541C2.32997%2010.1866%202.8458%207.99242%203.5883%206.34659C4.0458%205.33242%204.6358%204.40909%205.6858%203.96909C6.38247%203.67742%207.22664%203.33325%207.99997%203.33325C8.50247%203.33325%208.89747%203.79575%208.82497%204.28909C9.37952%204.20703%209.93938%204.16609%2010.5%204.16659C11.0758%204.16659%2011.6383%204.20825%2012.1783%204.28992C12.1622%204.17158%2012.1715%204.05117%2012.2055%203.93668C12.2394%203.82218%2012.2973%203.7162%2012.3753%203.62576C12.4533%203.53532%2012.5496%203.46247%2012.6579%203.41205C12.7662%203.36162%2012.8831%203.33476%2013.0025%203.33325ZM7.79164%208.74992C7.40486%208.74992%207.03393%208.90356%206.76044%209.17705C6.48695%209.45055%206.3333%209.82148%206.3333%2010.2083C6.3333%2010.595%206.48695%2010.966%206.76044%2011.2394C7.03393%2011.5129%207.40486%2011.6666%207.79164%2011.6666C8.17841%2011.6666%208.54935%2011.5129%208.82284%2011.2394C9.09633%2010.966%209.24997%2010.595%209.24997%2010.2083C9.24997%209.82148%209.09633%209.45055%208.82284%209.17705C8.54935%208.90356%208.17841%208.74992%207.79164%208.74992ZM13.2083%208.74992C12.8215%208.74992%2012.4506%208.90356%2012.1771%209.17705C11.9036%209.45055%2011.75%209.82148%2011.75%2010.2083C11.75%2010.595%2011.9036%2010.966%2012.1771%2011.2394C12.4506%2011.5129%2012.8215%2011.6666%2013.2083%2011.6666C13.5951%2011.6666%2013.966%2011.5129%2014.2395%2011.2394C14.513%2010.966%2014.6666%2010.595%2014.6666%2010.2083C14.6666%209.82148%2014.513%209.45055%2014.2395%209.17705C13.966%208.90356%2013.5951%208.74992%2013.2083%208.74992Z'%20fill='%23586AEA'/%3e%3c/svg%3e" alt="" class="me-1" >Discord</a>
+                            </div>
+                            <div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput " class="text-black">帳號</label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+
+                                <div class="text-end mb-4">
+                                    <a href="#" class="text-natural-50 fs-lg-6 fs-7">忘記密碼</a>
+                                </div>
+
+                                <div class="mb-9">
+                                    <button type="submit" class="w-100 btn btn-dark mb-4 py-3" id="login-submit-btn">送出<span class="material-symbols-outlined align-bottom fs-6 fs-lg-4">chevron_right</span></button>
+                                </div>
+
+                                <div class="text-center fs-lg-6 fs-7">
+                                    <p class="text-natural-50 fw-medium">不是會員?<a href="#" class="ms-1 text-primary-60 text-decoration-underline" id="go-register">快速註冊</a></p>
+                                </div>
+                            </div>
+                            <div class="login-close">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex  d-none" id="register-area">
+                        <div class="w-lg-40 w-100  p-lg-9  p-6 position-relative">
+                            <h2 class="text-center fs-lg-2 fw-bold mb-lg-9 mb-6">註冊</h2>
+                            <div class="border-bottom pb-6 mb-6">
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3 mb-4" ><img src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.3%2010.2083C19.3%209.55825%2019.2417%208.93325%2019.1333%208.33325H10.5V11.8833H15.4333C15.2167%2013.0249%2014.5667%2013.9916%2013.5917%2014.6416V16.9499H16.5667C18.3%2015.3499%2019.3%2012.9999%2019.3%2010.2083Z'%20fill='%234285F4'/%3e%3cpath%20d='M10.5%2019.1667C12.975%2019.1667%2015.05%2018.35%2016.5667%2016.95L13.5917%2014.6417C12.775%2015.1917%2011.7333%2015.525%2010.5%2015.525C8.11665%2015.525%206.09165%2013.9167%205.36665%2011.75H2.31665V14.1167C3.82498%2017.1083%206.91665%2019.1667%2010.5%2019.1667Z'%20fill='%2334A853'/%3e%3cpath%20d='M5.36665%2011.7416C5.18331%2011.1916%205.07498%2010.6083%205.07498%209.99993C5.07498%209.3916%205.18331%208.80827%205.36665%208.25827V5.8916H2.31665C1.69165%207.12493%201.33331%208.5166%201.33331%209.99993C1.33331%2011.4833%201.69165%2012.8749%202.31665%2014.1083L4.69165%2012.2583L5.36665%2011.7416Z'%20fill='%23FBBC05'/%3e%3cpath%20d='M10.5%204.48325C11.85%204.48325%2013.05%204.94992%2014.0083%205.84992L16.6333%203.22492C15.0417%201.74159%2012.975%200.833252%2010.5%200.833252C6.91665%200.833252%203.82498%202.89159%202.31665%205.89159L5.36665%208.25825C6.09165%206.09159%208.11665%204.48325%2010.5%204.48325Z'%20fill='%23EA4335'/%3e%3c/svg%3e" alt="" class="me-1" >Google</a>
+                                <a href="#" class="btn btn-outline-natural-85  text-black w-100 py-3" ><img src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13.0025%203.33325C13.6225%203.33325%2014.2775%203.54992%2014.8775%203.78909L15.3166%203.96909C16.3666%204.40909%2016.9566%205.33242%2017.4141%206.34659C18.1566%207.99242%2018.6725%2010.1866%2018.8508%2011.8549C18.9358%2012.6466%2018.9566%2013.4433%2018.8041%2013.9791C18.64%2014.5516%2018.0816%2014.9566%2017.5391%2015.2749L17.2708%2015.4274L16.9925%2015.5824C16.8491%2015.6624%2016.7016%2015.7416%2016.555%2015.8191L16.12%2016.0441L15.5225%2016.3416L15.0416%2016.5783C14.9434%2016.6312%2014.8355%2016.6639%2014.7244%2016.6744C14.6133%2016.6849%2014.5012%2016.673%2014.3948%2016.6393C14.2884%2016.6057%2014.1899%2016.551%2014.105%2016.4785C14.0201%2016.406%2013.9507%2016.3173%2013.9007%2016.2174C13.8508%2016.1176%2013.8215%2016.0088%2013.8144%2015.8974C13.8074%2015.786%2013.8228%2015.6744%2013.8597%2015.5691C13.8966%2015.4637%2013.9543%2015.3669%2014.0294%2015.2843C14.1044%2015.2017%2014.1953%2015.1351%2014.2966%2015.0883L14.955%2014.7633L14.4716%2014.2558C13.3133%2014.7308%2011.9491%2014.9999%2010.5%2014.9999C9.0508%2014.9999%207.68664%2014.7316%206.5283%2014.2558L6.04497%2014.7624L6.7058%2015.0874C6.80375%2015.1363%206.8911%2015.2041%206.96287%2015.2867C7.03464%2015.3694%207.08942%2015.4654%207.12409%2015.5693C7.15875%2015.6731%207.17263%2015.7828%207.16491%2015.892C7.1572%2016.0012%207.12806%2016.1078%207.07914%2016.2058C7.03022%2016.3037%206.96249%2016.391%206.87982%2016.4628C6.79714%2016.5346%206.70114%2016.5894%206.59729%2016.624C6.38756%2016.694%206.15861%2016.6779%205.9608%2016.5791L5.50747%2016.3541C5.17247%2016.1874%204.83664%2016.0224%204.50497%2015.8483L3.73164%2015.4274L3.46414%2015.2749C2.92164%2014.9566%202.36247%2014.5516%202.19914%2013.9791C2.0458%2013.4433%202.06747%2012.6474%202.15164%2011.8541C2.32997%2010.1866%202.8458%207.99242%203.5883%206.34659C4.0458%205.33242%204.6358%204.40909%205.6858%203.96909C6.38247%203.67742%207.22664%203.33325%207.99997%203.33325C8.50247%203.33325%208.89747%203.79575%208.82497%204.28909C9.37952%204.20703%209.93938%204.16609%2010.5%204.16659C11.0758%204.16659%2011.6383%204.20825%2012.1783%204.28992C12.1622%204.17158%2012.1715%204.05117%2012.2055%203.93668C12.2394%203.82218%2012.2973%203.7162%2012.3753%203.62576C12.4533%203.53532%2012.5496%203.46247%2012.6579%203.41205C12.7662%203.36162%2012.8831%203.33476%2013.0025%203.33325ZM7.79164%208.74992C7.40486%208.74992%207.03393%208.90356%206.76044%209.17705C6.48695%209.45055%206.3333%209.82148%206.3333%2010.2083C6.3333%2010.595%206.48695%2010.966%206.76044%2011.2394C7.03393%2011.5129%207.40486%2011.6666%207.79164%2011.6666C8.17841%2011.6666%208.54935%2011.5129%208.82284%2011.2394C9.09633%2010.966%209.24997%2010.595%209.24997%2010.2083C9.24997%209.82148%209.09633%209.45055%208.82284%209.17705C8.54935%208.90356%208.17841%208.74992%207.79164%208.74992ZM13.2083%208.74992C12.8215%208.74992%2012.4506%208.90356%2012.1771%209.17705C11.9036%209.45055%2011.75%209.82148%2011.75%2010.2083C11.75%2010.595%2011.9036%2010.966%2012.1771%2011.2394C12.4506%2011.5129%2012.8215%2011.6666%2013.2083%2011.6666C13.5951%2011.6666%2013.966%2011.5129%2014.2395%2011.2394C14.513%2010.966%2014.6666%2010.595%2014.6666%2010.2083C14.6666%209.82148%2014.513%209.45055%2014.2395%209.17705C13.966%208.90356%2013.5951%208.74992%2013.2083%208.74992Z'%20fill='%23586AEA'/%3e%3c/svg%3e" alt="" class="me-1" >Discord</a>
+                            </div>
+                            <div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput " class="text-black">帳號</label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">密碼 </label>
+                                </div>
+                                <div class="form-floating position-relative mb-4">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <span class="material-symbols-outlined visib_off">
+                                    visibility_off
+                                    </span>
+                                    <label for="floatingPassword" class="text-black">確認密碼 </label>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label fs-lg-6 fs-7" for="flexCheckDefault">
+                                        <p>我同意 <a class="mx-1 text-primary-60 text-decoration-underline" href="services.html" >服務條款</a>和 <a class="mx-1 text-primary-60 text-decoration-underline" href="terms.html">隱私政策</a></p>
+                                    </label>
+                                </div>
+
+                                <div class="mb-9">
+                                    <button type="submit" class="w-100 btn btn-dark mb-4 py-3" id="reg-submit-btn">送出<span class="material-symbols-outlined align-bottom fs-6 fs-lg-4">chevron_right</span></button>
+                                </div>
+
+                                <div class="text-center">
+                                    <p class="text-natural-50 fw-medium">已是會員?<a href="#" class="ms-1 text-primary-60 text-decoration-underline" id="go-login">直接登入</a></p>
+                                </div>
+                            </div>
+                            <div class="login-close">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+
+                        <div class="w-60 d-none d-lg-block"> 
+                            <img  src="/hexschool-course06-task/assets/register-Cfh0nsYT.png" class="radius-right-bottom register-img " alt="註冊圖片">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <main >
+
+
+      <!-- 關於職旅頁-廣告圖 -->
+      <div class="about-banner">
+        <div class="container py-9 py-lg-12 position-relative ">
+            <div class="text-center w-800px mx-auto ">
+              <h1 class="fs-2 fs-lg-xxl fw-bold mb-6 mb-lg-9">關於職旅</h1>
+              <p class="text-natural-50 fs-6 fs-lg-9">職旅 WorkWay 匯集了來自不同領域、擁有豐富實戰經驗的自由工作者與數位遊牧專家。根據你的需求和階段，我們提供一對一諮詢。</p>
+              <p class="text-natural-50">無論你是剛開始探索期，還是已在轉型路上遇到瓶頸，我們都能提供適合你的專業指導。</p>
+          </div>
+          <img class="banner-person-img d-none d-lg-block" src="/hexschool-course06-task/assets/banner-person-DTAW4mej.svg" alt="">
+        </div>
+      </div>
+
+      <!-- 精實的職旅夥伴區塊 -->
+      <section class="overflow-hidden">
+        <div class="container py-lg-12 py-9">
+          
+          <!-- 標題 -->
+          <div class="text-center mb-6 mb-lg-9">
+            <h3 class="fs-3 fs-lg-2 fw-medium mb-6">精實的職旅夥伴</h3>
+            <p class="text-natural-50">我們相信，最好的指導來自於那些已經走過你想走的路，並願意伸出手拉你一把的人。</p>
+          </div>
+
+          <!-- 專家們 -->
+
+          <div class="swiper  mentor-slider mb-9">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card shadow w-320px ">
+                <img src="/hexschool-course06-task/assets/mentor-1-DzIVfJbW.png" class="card-img-top" alt="專家陳致遠個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">數位遊牧先驅</small>
+                  <h5 class="card-title mb-4">陳志遠 Ethan Chen</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 遠端工作策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 數位遊牧生活設計</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-2-BTK6GYqW.png" class="card-img-top" alt="專家林曉彤個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">個人品牌策略專家</small>
+                  <h5 class="card-title mb-4">林曉彤 Clara Lin</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 個人品牌建立</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 內容行銷策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 故事行銷</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-3-CU1P0TLf.png" class="card-img-top" alt="專家王建明個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">財務自由規劃顧問</small>
+                  <h5 class="card-title mb-4">王建明 Marcus</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 稅務優化</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 被動收入建立</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 現金流管理</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-4-DPZMYEV9.png" class="card-img-top" alt="專家張雅琳 個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">創意接案與多元收入專家</small>
+                  <h5 class="card-title mb-4">張雅琳 Ariel</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 創意變現策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 線上課程開發</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-5-g4i84-rV.png" class="card-img-top" alt="專家李俊宏個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">遠端工作技術顧問專家</small>
+                  <h5 class="card-title mb-4">李俊宏 Kevin Lee</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 專案管理自動化</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 虛擬團隊管理</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px ">
+                <img src="/hexschool-course06-task/assets/mentor-1-DzIVfJbW.png" class="card-img-top" alt="專家陳致遠個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">數位遊牧先驅</small>
+                  <h5 class="card-title mb-4">陳志遠 Ethan Chen</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 遠端工作策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 數位遊牧生活設計</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-2-BTK6GYqW.png" class="card-img-top" alt="專家林曉彤個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">個人品牌策略專家</small>
+                  <h5 class="card-title mb-4">林曉彤 Clara Lin</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 個人品牌建立</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 內容行銷策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 故事行銷</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-3-CU1P0TLf.png" class="card-img-top" alt="專家王建明個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">財務自由規劃顧問</small>
+                  <h5 class="card-title mb-4">王建明 Marcus</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 稅務優化</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 被動收入建立</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 現金流管理</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-4-DPZMYEV9.png" class="card-img-top" alt="專家張雅琳 個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">創意接案與多元收入專家</small>
+                  <h5 class="card-title mb-4">張雅琳 Ariel</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 創意變現策略</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 線上課程開發</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card shadow w-320px">
+                <img src="/hexschool-course06-task/assets/mentor-5-g4i84-rV.png" class="card-img-top" alt="專家李俊宏個人照片">
+                <div class="card-body">
+                  <small class="text-natural-50 fw-medium mb-2">遠端工作技術顧問專家</small>
+                  <h5 class="card-title mb-4">李俊宏 Kevin Lee</h5>
+                  <div class="">
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7 me-2"># 專案管理自動化</span>
+                    <span class="badge rounded-pill border text-natural-50 fw-normal fs-7"># 虛擬團隊管理</span>
+                  </div>
+                </div>
+              </div>
+
+              
+
+            </div>
+          </div>
+
+          <!-- 團隊承諾 -->
+          
+          <div class="bg-primary pt-lg-6 pt-4 pb-9  px-6 pb-lg-9 rounded-3">
+            <div class="w-800px mx-auto ">
+              <div class="bg-white text-primary text-center py-3  w-120px mx-auto rounded-1 position-relative mb-lg-8 mb-6  fs-lg-5">
+                <p class="fw-bold">團隊承諾</p>
+                <div class=" shape-ab">
+                  <div class="shape-ex7"></div>
+                </div>
+              </div>
+
+              <p class="text-white text-center fs-7 mx-auto mb-lg-9 mb-9">我們不只是顧問，更是你職業轉型路上的夥伴與同行者。我們深知轉型過程中的不確定與恐懼，也經歷過停滯不前的困境。正因如此，我們更懂得如何陪你走過這段旅程，不只指引方向，更與你並肩同行。</p>
+              
+              <div class="text-center">
+                <img class="d-none d-lg-inline" src="/hexschool-course06-task/assets/text-pc-BW5w9Hcw.svg" alt="">
+              </div>
+              <div class="text-center ">
+                <img class="d-lg-none img-scale-2" src="/hexschool-course06-task/assets/text-mb-C23S4RVq.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-natural-95 p-lg-12 py-9 h-979px">
+        <div class="container overflow-hidden">
+          <h2 class="text-center fs-lg-2 fw-bold mb-9">公司資訊</h2>
+          <div class="card border-0 shadow">
+            <div class="card-body p-lg-9">
+              <ul class="mb-lg-9 mb-6 ps-0">
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">公司位置</h5>
+                  <p >110台北市信義區信義路五段7號</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">負責人</h5>
+                  <p>張世明</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">聯絡專線</h5>
+                  <p>02-2758-6600</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">營業時間</h5>
+                  <p class="d-none d-lg-block ">週一至週五 10:00～18:00（國定假日休息）</p>
+                  <p class="d-lg-none ">週一至週五 10:00～ <br>18:00（國定假日休息）</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">電子郵件</h5>
+                  <p>contact@workway.tw</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">成立時間</h5>
+                  <p>2023 年 6 月</p>
+                </li>
+                <li class="list-style-none d-flex py-6 border-bottom border-natural-85 fs-7">
+                  <h5 class="fs-lg-6 fs-7 lh-base w-120px ps-6 text-natural-50 fw-bold">統一編號</h5>
+                  <p>83149276</p>
+                </li>
+              </ul>
+
+  
+              <div class=" h-sm-200px overflow-hidden ">
+                <img class="img-scale-sm-3" src="/hexschool-course06-task/assets/map-mOP65bZF.png" alt="">
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class=" ">
+        <div class="container py-9">
+          <div class="pt-lg-300px  position-relative">
+            <div class="bg-primary-60 rounded-3 text-white px-lg-12 py-lg-6 p-6">
+    <div class=" ">
+        <img src="data:image/svg+xml,%3csvg%20width='40'%20height='36'%20viewBox='0%200%2040%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M30.8877%202.60303C35.9206%202.60303%2040.0009%206.71915%2040.001%2011.7964V21.981L40%2022.1069C39.9667%2024.5913%2038.9556%2026.839%2037.3398%2028.4731V33.6001H36.291C35.8837%2033.6%2035.4534%2033.482%2035.0703%2033.3413C34.6684%2033.1937%2034.2326%2032.9888%2033.7891%2032.7495C33.0066%2032.3274%2032.1516%2031.7724%2031.3438%2031.1626C31.2295%2031.1683%2031.1145%2031.1719%2030.999%2031.1733H25.001C22.8735%2031.1733%2020.9179%2030.4362%2019.3672%2029.2036C19.986%2028.7674%2020.5056%2028.2641%2020.9277%2027.7427C22.0762%2028.5704%2023.4819%2029.0581%2025.001%2029.0581H30.9736C31.1723%2029.0557%2031.3694%2029.0447%2031.5645%2029.0259L31.9795%2028.9858L32.3086%2029.2446C33.126%2029.8869%2034.0071%2030.4688%2034.7773%2030.8843C34.9405%2030.9723%2035.0967%2031.0508%2035.2432%2031.1206V27.5503L35.5889%2027.2349C36.1697%2026.7056%2036.6607%2026.0797%2037.04%2025.3833H27.501V23.187H37.8018C37.8632%2022.8258%2037.8983%2022.4553%2037.9033%2022.0776L37.9043%2021.981V20.3384H29.9199V18.1421H37.9043V15.2954H32.0967V13.0991H37.9043V11.7964C37.9042%207.88738%2034.7626%204.71826%2030.8877%204.71826H25.001C24.9537%204.71826%2024.9064%204.72025%2024.8594%204.72119C24.6403%203.99556%2024.338%203.30677%2023.9668%202.66357C24.3063%202.62489%2024.6513%202.60303%2025.001%202.60303H30.8877Z'%20fill='%23FCFCFD'/%3e%3cpath%20d='M15.2422%200C19.2806%200.000117114%2022.6524%202.88007%2023.4502%206.71484C24.6213%2010.6795%2025.9625%2017.7485%2025.9678%2017.7764H21.8545V19.9727H17.9844C17.9844%2021.315%2019.324%2023.1582%2021.0898%2023.1582C21.0898%2024.6226%2019.0483%2028.3936%2014.5967%2028.3936H8.38672C3.75485%2028.3934%200.00013738%2024.6053%200%2019.9326V8.46094C7.60327e-05%203.78818%203.75481%200.000176942%208.38672%200H15.2422ZM17.9033%209.43652C17.0127%209.43652%2016.2903%2010.165%2016.29%2011.0635C16.29%2011.9621%2017.0125%2012.6914%2017.9033%2012.6914C18.7941%2012.6913%2019.5166%2011.9621%2019.5166%2011.0635C19.5164%2010.1651%2018.7939%209.43658%2017.9033%209.43652Z'%20fill='%23FCFCFD'/%3e%3c/svg%3e" class="mb-6" alt="">
+        <h3 class="fs-3 fs-lg-2 fw-bold mb-2">邁向你真正想過的生活，從這裡開始</h3>
+        <p class="fs-6 fs-lg-9 pb-6 border-bottom-dashed">第一次諮詢只要 30 分鐘，可能改變你未來 30 年的生活方式</p>
+    </div>
+
+    <div class="d-flex flex-column flex-lg-row justify-content-between pt-lg-6 ">
+        <div class="d-flex flex-column flex-lg-row py-4">
+        <p class="fs-lg-5 fw-medium me-6 " ><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.95%2021C17.8667%2021%2015.8083%2020.5458%2013.775%2019.6375C11.7417%2018.7292%209.89167%2017.4417%208.225%2015.775C6.55833%2014.1083%205.27083%2012.2583%204.3625%2010.225C3.45417%208.19167%203%206.13333%203%204.05C3%203.75%203.1%203.5%203.3%203.3C3.5%203.1%203.75%203%204.05%203H8.1C8.33333%203%208.54167%203.07917%208.725%203.2375C8.90833%203.39583%209.01667%203.58333%209.05%203.8L9.7%207.3C9.73333%207.56667%209.725%207.79167%209.675%207.975C9.625%208.15833%209.53333%208.31667%209.4%208.45L6.975%2010.9C7.30833%2011.5167%207.70417%2012.1125%208.1625%2012.6875C8.62083%2013.2625%209.125%2013.8167%209.675%2014.35C10.1917%2014.8667%2010.7333%2015.3458%2011.3%2015.7875C11.8667%2016.2292%2012.4667%2016.6333%2013.1%2017L15.45%2014.65C15.6%2014.5%2015.7958%2014.3875%2016.0375%2014.3125C16.2792%2014.2375%2016.5167%2014.2167%2016.75%2014.25L20.2%2014.95C20.4333%2015.0167%2020.625%2015.1375%2020.775%2015.3125C20.925%2015.4875%2021%2015.6833%2021%2015.9V19.95C21%2020.25%2020.9%2020.5%2020.7%2020.7C20.5%2020.9%2020.25%2021%2019.95%2021ZM6.025%209L7.675%207.35L7.25%205H5.025C5.10833%205.68333%205.225%206.35833%205.375%207.025C5.525%207.69167%205.74167%208.35%206.025%209ZM14.975%2017.95C15.625%2018.2333%2016.2875%2018.4583%2016.9625%2018.625C17.6375%2018.7917%2018.3167%2018.9%2019%2018.95V16.75L16.65%2016.275L14.975%2017.95Z'%20fill='%23FCFCFD'/%3e%3c/svg%3e" alt="" class="me-2 align-middle" >0800-123-123</p>
+        <p class="fs-lg-5 fw-medium " ><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M4%2020C3.45%2020%202.97917%2019.8042%202.5875%2019.4125C2.19583%2019.0208%202%2018.55%202%2018V6C2%205.45%202.19583%204.97917%202.5875%204.5875C2.97917%204.19583%203.45%204%204%204H20C20.55%204%2021.0208%204.19583%2021.4125%204.5875C21.8042%204.97917%2022%205.45%2022%206V18C22%2018.55%2021.8042%2019.0208%2021.4125%2019.4125C21.0208%2019.8042%2020.55%2020%2020%2020H4ZM12%2013L4%208V18H20V8L12%2013ZM12%2011L20%206H4L12%2011ZM4%208V6V18V8Z'%20fill='%23FCFCFD'/%3e%3c/svg%3e" alt="" class="me-2 align-middle" >Sample@mail.com</p>
+        </div>
+        <div>
+            <a class="btn btn-dark rounded-1 py-3   fs-7 fs-lg-6 px-lg-5 " href="#">預約免費職涯探索
+            <span class="material-symbols-outlined align-bottom fs-6 fs-lg-4">chevron_right</span>
+        </a>
+        </div>
+    </div>  
+</div> 
+          </div>
+        </div>
+      </section>
+      
+      
+
+    </main>
+
+    <footer class="footer">
+    <nav class="navbar navbar-expand">
+        <div class="container py-lg-9 py-6">
+            <div class="collapse navbar-collapse flex-column flex-lg-row justify-content-center justify-content-lg-between" id="navbarNav ">
+                <ul class="navbar-nav flex-wrap flex-lg-nowrap justify-content-center mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="services.html">服務方案</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="about.html">關於職旅</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="contact-us.html">聯絡我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="privacy.html">隱私權政策</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="terms.html">用戶條款</a>
+                    </li> 
+                </ul>
+                <p class="text-natural-50  fs-7 text-nowrap">Copyright © 2025 職旅 workway. All rights reserved.</p>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 24,
+        loop: true
+      });
+    </script>
+  </body>
+</html>
